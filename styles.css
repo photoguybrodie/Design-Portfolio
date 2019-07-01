@@ -1,11 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
 body, html {
     box-sizing: border-box;
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
     display: flex;
     justify-content: center;
+    height: 100vh;
+    background-color: rgba(201, 145, 61, 0.2);
+    color: rgba(40, 40, 40, 1.0);
 }
 
 .container {
@@ -15,6 +21,25 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.header {
+    padding: 0;
+    
+}
+
+.copy {
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin:20px 0;
+}
+
+p {
+    font-weight: 400;
 }
 
 h1, p {
