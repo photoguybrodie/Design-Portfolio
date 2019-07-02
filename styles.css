@@ -33,7 +33,7 @@ body {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 2.5rem;
     font-weight: 700;
     margin:20px 0;
 }
@@ -48,7 +48,7 @@ h1, p {
 
 .logo {
     display: block;
-    width: 50%;
+    width: 75%;
     margin: 0 auto;
 }
 
@@ -66,4 +66,43 @@ a {
 
 a:hover {
     color: rgba(40, 40, 40, 0.5);
+}
+
+@media (min-width: 576px)
+{
+    h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        margin:20px 0;
+    }
+
+}
+
+@media (min-width: 768px)
+{
+    .logo {
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 992px)
+{
+    h1 {
+        font-size: 3.5rem;
+        font-weight: 700;
+        margin:20px 0;
+    }
+
+}
+
+@media (min-width: 1200px)
+{
+    h1 {
+        font-size: 4rem;
+        font-weight: 700;
+        margin:20px 0;
+    }
+
 }
